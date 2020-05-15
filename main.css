@@ -1,0 +1,81 @@
+/* Global elements Styling */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+--light-color: #F3DCFA;
+--light-medium-color: #B938E0;
+--mediumcolor: #7B1899;
+--dark-medium-color:#350A42;
+--dark-color: #270F2E;
+
+}
+
+body{
+    background-color: var(--light-color);
+    font-family: 'Indie Flower', cursive;
+}
+
+.paper-wapper{
+    position: relative;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+/* Global Classes Styling */
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.bnt{
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px var(--dark-color) solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.grid{
+    display: flex;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--light-medium-color);
+}
+
+@media(max-width: 650px){
+    .logo > img{
+        margin: auto;
+    }
+}
+
+nav{
+    font-weight: 400;
+}
