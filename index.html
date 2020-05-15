@@ -3,28 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WOT Books</title>
+    <title>WOT Books Amazon</title>
 </head>
-<body>
-    <div id="page-wrapper">
-        <header id="header">
-            <img id="header-img">
-            <nav id="nav-bar">
-                <a class="nav-link" id="corresponding-section"></a>
-                <a class="nav-link" id="corresponding-section"></a>
-                <a class="nav-link" id="corresponding-section"></a>
-            </nav>
-            <embed id="video">
+    <body>
+            <div id="page-wrapper">
+                <header id="header">
+                    <img id="header-img">
+                    
+                    <nav id="nav-bar">
+                        <ul>
+                            <li><a class="nav-link" id="features" href="features">Features</a></li>
+                            <li><a class="nav-link" id="how-it-works" href="how-it-works">
+                                Wheel of Time the Wonderfull Series</a></li>
+                            <li><a class="nav-link" id="price" href="price">Price</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <section id="get-email">
+                    <h2>Amazon Kindle Books</h2>
 
-            <form id="form">
-                <label for="email"> E-mail: 
-                    <input name="email" id="email" type="email" placeholder="Coloque seu Email.">
-                </label>
-                <input name="submit"type="submit" id="submit">
-            </form>
+                    <form id="form">
+                        <label for="email"> E-mail: 
+                            <input 
+                            name="email"
+                            id="email" 
+                            type="email" 
+                            placeholder="Enter your email address." 
+                            required>
+                        </label>
+                        <input 
+                        name="submit"
+                        type="submit" 
+                        id="submit" 
+                        class="bnt">
+                    </form>
+                </section>
 
-        </header>
-    </div>
-    
-</body>
+                <div class="container">
+                    <section id="features">
+                        <div class="grid">
+                            <div class="icon"> <i></i></div>
+                            <div class="desc">
+                                <h2>
+                                    Alguma coisa sobre o livro
+                                </h2>
+                                <p> alguma coisa sobre alguma coisa do livro</p>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="icon"> <i></i></div>
+                            <div class="desc">
+                                <h2>
+                                    Alguma coisa sobre o livro
+                                </h2>
+                                <p> alguma coisa sobre alguma coisa do livro</p>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="icon"> <i></i></div>
+                            <div class="desc">
+                                <h2>
+                                    Alguma coisa sobre o livro
+                                </h2>
+                                <p> alguma coisa sobre alguma coisa do livro</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="how-it-works">
+                        <iframe
+                        id="video"
+                        height="315"
+                        src="none"
+                        frameborder="0"
+                        allowfullscreen
+                        ></iframe>
+                    </section>
+                    <section id="price">
+                        <div class="product">
+                            <div class="cover"> <img width="50px" height="60px"></div>
+                            <h2>$ valor</h2>
+                            <button class="bnt"> Select </button>
+                        </div>
+                    </section>
+                
+        
+                    <footer>
+                        <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Contact</a></li>
+                        </ul>
+                        <span>Copyright 2020</span>
+                    </footer>
+                </div> 
+            </div>
+    </body>
 </html>
